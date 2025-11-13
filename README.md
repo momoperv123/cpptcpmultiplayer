@@ -181,8 +181,6 @@ cpp_tcp_multiplayer/
 |     |- game_server.cpp
 |     |- message_queue.cpp
 |     |- server.cpp
-|- tests/
-|  |- test_packet.cpp
 ```
 
 ## Troubleshooting
