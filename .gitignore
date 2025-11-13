@@ -1,0 +1,28 @@
+# Build directories
+/build/
+/build-debug/
+/bin/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Object and binary artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.pdb
+*.lib
+*.a
+*.so
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
