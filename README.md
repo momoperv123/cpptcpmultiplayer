@@ -1,4 +1,4 @@
-# C++ TCP Multiplayer Framework
+# C++ TCP Multiplayer
 
 ## Game Rules: Liar Line
 
