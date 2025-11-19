@@ -149,39 +149,8 @@ Open multiple terminal windows and connect multiple clients to test concurrent c
 3. Repeat with the liar surviving (split vote) -> liar score increments by 2.
 4. Disconnect one player mid-round -> round should reset and wait until at least three players remain.
 5. Rejoin with a new client and confirm roles/votes work in the next round.
-
-## Project Structure
-
-```
-cpp_tcp_multiplayer/
-|- CMakeLists.txt
-|- README.md
-|- include/
-|  |- client/
-|  |  |- client.h
-|  |- common/
-|  |  |- game_state.h
-|  |  |- packet.h
-|  |  |- serialization.h
-|  |- server/
-|     |- connection_manager.h
-|     |- message_queue.h
-|     |- server.h
-|- src/
-|  |- client/
-|  |  |- client.cpp
-|  |  |- echo_client.cpp
-|  |  |- game_client.cpp
-|  |- common/
-|  |  |- game_state.cpp
-|  |  |- serialization.cpp
-|  |- server/
-|     |- connection_manager.cpp
-|     |- echo_server.cpp
-|     |- game_server.cpp
-|     |- message_queue.cpp
-|     |- server.cpp
-```
+   
+---
 
 ## Troubleshooting
 
